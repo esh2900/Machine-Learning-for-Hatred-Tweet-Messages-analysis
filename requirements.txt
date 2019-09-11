@@ -1,0 +1,5 @@
+jupyter
+pandas==0.25.0
+matplotlib
+nltk==3.4.5
+wordcloud

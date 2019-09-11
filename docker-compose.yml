@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+
+  jupyter:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    volumes:
+      - "../:/home/"
+    ports:
+      - "8888:8888"
