@@ -3,9 +3,7 @@ version: '2'
 services:
 
   jupyter:
-    build:
-      dockerfile: Dockerfile
-      context: .
+    image: esh2900/ml_for_hatred_tweet:first_version
     volumes:
       - "../:/home/"
     ports:
